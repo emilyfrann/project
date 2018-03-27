@@ -1,0 +1,12 @@
+.my-alert {
+	background-color: coral;
+	color: #fff;
+}
+
+.hidden-button {
+	opacity: 0;
+}
+
+.hidden-button:hover {
+	opacity: 1.0
+}

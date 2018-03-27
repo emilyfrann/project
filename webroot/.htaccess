@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /~i7469378/project/webroot/
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>
